@@ -1,6 +1,6 @@
 # FILE-LOCK-TOOL: UNLOCK
 param(
-    [Parameter(Mandatory=$true, Position=0)]
+    [Parameter(Mandatory=$true, Position=0, ValueFromRemainingArguments=$true)]
     [string[]]$Targets,
     [switch] $SkipProfile
 )

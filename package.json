@@ -1,6 +1,6 @@
 {
   "name": "ai-config-shield",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Protect your configuration files from being silently bypassed by AI agents.",
   "bin": {
     "shield-lock": "bin/lock.js",
